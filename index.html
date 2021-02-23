@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu__logo-box">
+          <img src="images/logo.svg" alt="logo Fylo" class="menu__logo" />
+        </div>
+
+        <div class="menu__icon-box">
+          <img
+            src="images/icon-document.svg"
+            alt="icon document"
+            class="menu__icon"
+          />
+          <img
+            src="images/icon-folder.svg"
+            alt="icon folder"
+            class="menu__icon"
+          />
+          <img
+            src="images/icon-upload.svg"
+            alt="icon upload"
+            class="menu__icon"
+          />
+        </div>
+      </div>
+
+      <div class="storage">
+        <p class="storage__text">
+          You’ve used
+          <span class="storage__text storage__text--bold">815 GB</span> of your
+          storage
+        </p>
+
+        <div class="storage__progress-box">
+          <div class="storage__progress">
+            <div class="storage__progress-fill">
+              <div class="storage__progress-circle"></div>
+            </div>
+          </div>
+
+          <div class="storage__capacity">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
+        </div>
+
+        <div class="storage__status">
+          <p class="storage__status-number">185</p>
+          <p class="storage__status-unit">GB Left</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/IsaiasVillegas" target="_blank"
+        >Isaias villegas</a
+      >.
+    </div>
+  </body>
+</html>
